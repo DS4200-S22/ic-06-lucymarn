@@ -10,5 +10,9 @@ Modified: 12/06/21
     // You will need to call this function when Button 1 is clicked
     // You will need to modiffy the body of this function as described in the assignment Readme
 function button1Clicked() {
-    console.log("Button 1 was clicked"); 
+    let random_numDiv = document.getElementById("random_num");
+    random_numDiv.innerHTML = Math.random();
+}
+function button2Clicked() {
+    let circleSVG = document.getElementById("circle");
 }
